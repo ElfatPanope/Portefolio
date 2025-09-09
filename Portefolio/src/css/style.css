@@ -1,9 +1,27 @@
 h1 {
     color: green;
+    display: flex;
+    align-items: center;
 }
 
 p {
     color: lightblue;
     font-size: large;
+    padding: auto;
+    margin: auto;
 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav a {
+    text-decoration: none;
+    color:#333;
+    font-weight: bold;
 }
