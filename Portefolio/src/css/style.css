@@ -25,3 +25,18 @@ nav a {
     color:#333;
     font-weight: bold;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    background: #333;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #555;
+
+}
