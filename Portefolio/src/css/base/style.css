@@ -1,0 +1,26 @@
+/* Charte graphique du portefolio */
+h1 {
+    color: green;
+    display: flex;
+    align-items: center;
+}
+
+
+
+span {
+    color: red;
+    font-style: italic;
+    font-size: larger;
+
+}
+
+
+
+.texte_presentation {
+    color: yellow;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    margin: 10%;
+
+}

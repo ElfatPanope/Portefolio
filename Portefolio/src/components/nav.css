@@ -1,25 +1,4 @@
-h1 {
-    color: green;
-    display: flex;
-    align-items: center;
-}
-
-p {
-    color: black;
-    font-size: large;
-    padding: auto;
-    margin: auto;
-    width: 50em;
-
-}
-
-span {
-    color: red;
-    font-style: italic;
-    font-size: larger;
-
-}
-
+/* style du menu header du portefolio */
 nav ul {
     display: flex;
     list-style: none;
