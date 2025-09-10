@@ -14,13 +14,18 @@ span {
 
 }
 
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8%;
 
+}
 
 .texte_presentation {
-    color: yellow;
-    align-items: center;
+    color: black;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     margin: 10%;
 
 }
