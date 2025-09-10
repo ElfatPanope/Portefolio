@@ -5,10 +5,17 @@ h1 {
 }
 
 p {
-    color: lightblue;
+    color: black;
     font-size: large;
     padding: auto;
     margin: auto;
+
+}
+
+span {
+    color: red;
+    font-style: italic;
+    font-size: larger;
 
 }
 
