@@ -1,21 +1,24 @@
 /* Charte graphique du portefolio */
 :root {
-    --primary-color: rgb(83, 159, 83);
-    --secondary-color: rgb(254, 254, 131);
-    --text-color: black;
-    --background-color: rgb(17, 150, 0);
+    --text-color: #e4e4e2;
+    --tittle-color: #00ff1a;
+    --alt_tittle-color: #ffff33;
+    --background-color: #222;
 
 
 }
 
 body {
     background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color)
 }
 
-h1 {
-    color: var(--secondary-color);
-    display: flex;
-    align-items: center;
+h1,
+h2,
+h3 {
+    color: var(--tittle-color);
+    font-family: 'Michroma', sans-serif;
 }
 
 
@@ -27,6 +30,10 @@ span {
 
 }
 
+/*Titre de la présentation sur page d'acceuil*/
+.titre_presentation {}
+
+/*Présentation sur la page d'acceuil*/
 .presentation {
     display: flex;
     align-items: center;
@@ -36,13 +43,54 @@ span {
 }
 
 .texte_presentation {
-    color: black;
+    color: white;
     display: flex;
     justify-content: flex-start;
     margin: 10%;
+    font-size: 2rem;
 
 }
 
-.logo {
-    width: 50px;
+/*Formulaire de contact*/
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style du fieldset */
+.fieldset_form {
+    background-color: #111;
+    border: 2px solid #39ff14;
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 0 10px #39ff14,
+        0 0 20px #39ff14;
+    color: #fff;
+}
+
+.fieldset_form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.fieldset_form input,
+.fieldset_form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.fieldset_form input:focus,
+.fieldset_form textarea:focus {
+    box-shadow: 0 0 10px #39ff14;
+    border: 1px solid #39ff14;
 }

@@ -5,12 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Maxime DUCARUGE Portefolio</title>
+    <title>Maxime DUCARUGE Portfolio</title>
     <!-- Charte graphique du projet -->
     <link href="css/base/style.css" rel="stylesheet">
     <!-- Style graphiques des Composants -->
     <link href="components/nav.css" rel="stylesheet">
-    <link href="components/nav.css" rel="stylesheet">
+    <link href="components/button.css" rel="stylesheet">
+    <!--Fonts des titres + textes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&display=swap"
+        rel="stylesheet">
+
+
+
 
 </head>
 
@@ -18,7 +33,6 @@
     <header>
         <!-- Menu du header -->
         <nav>
-            <div class="logo">Mon logo</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="À propos.html"> En savoir plus </a></li>
@@ -35,52 +49,46 @@
 
 
     <main>
-        <h1>Bonjour world</h1>
         <!-- section de présentation rapide sur la page d'acceuil -->
 
         <section class="primary_about">
 
+            <h1 class="titre_presentation">Bienvenue sur mon portfolio</h1>
+
             <div class="presentation">
+
 
                 <div class="texte_presentation">
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in lorem a augue pretium
-                        posuere.
-                        Vestibulum eget massa id arcu porta pulvinar. Donec eget tellus arcu. Pellentesque vel vehicula
-                        velit.
-                        Donec
-                        nisl diam, rutrum et suscipit eget, laoreet ut est. Praesent ligula libero, semper at finibus
-                        quis,
-                        dictum
-                        sed sapien. Nunc fringilla tortor quis vehicula interdum. Nulla sed massa odio. Pellentesque
-                        vulputate
-                        elit
-                        in molestie lacinia. Phasellus vel nulla ligula.
-
-                        Donec interdum, urna a pellentesque varius, nisi justo rhoncus nibh, eu consequat nunc diam in
-                        lorem.
-                        Orci
-                        varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque
-                        sed
-                        arcu
-                        vitae metus varius dapibus id in augue. Vestibulum vulputate, neque sit amet iaculis
-                        ullamcorper,
-                        diam
-                        arcu
-                        aliquam eros, id blandit quam purus ornare ante. Suspendisse hendrerit vitae nulla at sodales.
-                        Pellentesque
-                        ut ornare massa. Duis id sem vehicula, condimentum nisi at, venenatis magna. Nam aliquet aliquet
-                        nibh eu
-                        imperdiet. Proin pellentesque non libero non blandit. Cras laoreet nulla in mi porta commodo
-                        dapibus
-                        at
-                        nibh.</p>
+                    <p>Je m'appelle Maxime, je suis étudiant en SIO option SISR à Pôle BTS
+                        Alternance à Angers.</p>
                 </div>
                 <div class="photo_presentation">
                     <img src="../assets/images/Spike.png" alt="Photo de moi">
                 </div>
             </div>
         </section>
+
+        <!--Formulaire de contact-->
+        <form method="get" action="">
+            <fieldset class="fieldset_form">
+                <label for="nom">Votre nom ?</label>
+                <input type="text" name="nom" id="nom" required>
+                <label for="prenom">Votre prénom ?</label>
+                <input type="text" name="prenom" id="prenom" required>
+                <label for="email">Votre e-mail ?</label>
+                <input type="email" name="email" id="email" required>
+                <p>
+                    <label for="message">Votre message:</label>
+                    <textarea name="message" id="message" cols="40" rows="4"></textarea>
+                </p>
+
+                <input type="submit" value="Envoyer" class="bouton_form">
+
+            </fieldset>
+
+
+        </form>
     </main>
 
     <footer>
