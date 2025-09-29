@@ -1,7 +1,7 @@
 /* Charte graphique du portefolio */
 :root {
     --text-color: #e4e4e2;
-    --tittle-color: #00ff1a;
+    --tittle-color: #058428;
     --alt_tittle-color: #ffff33;
     --background-color: #222;
 
@@ -21,6 +21,10 @@ h3 {
     font-family: 'Michroma', sans-serif;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 3em;
+}
 
 
 span {
@@ -62,12 +66,11 @@ form {
 /* Style du fieldset */
 .fieldset_form {
     background-color: #111;
-    border: 2px solid #39ff14;
-    border-radius: 20px;
+    border: 2px solid #058428;
     padding: 30px;
     width: 350px;
-    box-shadow: 0 0 10px #39ff14,
-        0 0 20px #39ff14;
+    box-shadow: 0 0 10px #058428,
+        0 0 20px #058428;
     color: #fff;
 }
 
@@ -91,6 +94,44 @@ form {
 
 .fieldset_form input:focus,
 .fieldset_form textarea:focus {
-    box-shadow: 0 0 10px #39ff14;
-    border: 1px solid #39ff14;
+    box-shadow: 0 0 10px #058428;
+    border: 1px solid #058428;
+}
+
+/* Texte Page BTS SIO */
+.text_bts_sio {
+    font-size: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.text_sio {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.text_sio_sisr {
+
+    padding: 20px;
+    border-radius: 12px;
+    width: 500px;
+
+
+}
+
+.text_sio_slam {
+    padding: 20px;
+    border-radius: 12px;
+    width: 500px;
+
+
+}
+
+.evidence {
+    color: var(--tittle-color);
+    text-decoration: none;
 }
