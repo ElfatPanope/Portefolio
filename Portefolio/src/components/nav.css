@@ -1,4 +1,16 @@
 /* style du menu header du portfolio */
+.primary_header {
+    background-image: url("../../assets/images/quantique.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
 nav ul {
     display: flex;
     justify-content: end;
@@ -11,10 +23,11 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: var(--tittle-color);
+    color: var(--alt-tittle-color);
     font-weight: bold;
     font-family: 'Michroma', sans-serif;
     padding: 5px;
+    font-size: 1.2rem;
 
 }
 
@@ -22,7 +35,6 @@ nav a {
 
 nav {
     padding: 12px 24px;
-    background: #222;
     margin-top: 2em;
     margin-bottom: 2em;
 }

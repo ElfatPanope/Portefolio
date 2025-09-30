@@ -2,8 +2,9 @@
 :root {
     --text-color: #e4e4e2;
     --tittle-color: #058428;
-    --alt_tittle-color: #ffff33;
+    --alt-tittle-color: #ffff33;
     --background-color: #222;
+    --text-size: 30px;
 
 
 }
@@ -21,21 +22,11 @@ h3 {
     font-family: 'Michroma', sans-serif;
 }
 
-h1 {
+h1,
+h2 {
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 10px;
 }
-
-
-span {
-    color: red;
-    font-style: italic;
-    font-size: larger;
-
-}
-
-/*Titre de la présentation sur page d'acceuil*/
-.titre_presentation {}
 
 /*Présentation sur la page d'acceuil*/
 .presentation {
@@ -100,38 +91,32 @@ form {
 
 /* Texte Page BTS SIO */
 .text_bts_sio {
-    font-size: 30px;
+    font-size: var(--text-size);
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .text_sio {
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-.text_sio_sisr {
-
-    padding: 20px;
-    border-radius: 12px;
-    width: 500px;
-
-
-}
-
+.text_sio_sisr,
 .text_sio_slam {
+
+    margin-top: 20px;
     padding: 20px;
     border-radius: 12px;
     width: 500px;
-
+    outline: solid 1px var(--tittle-color);
 
 }
 
 .evidence {
     color: var(--tittle-color);
-    text-decoration: none;
+    font-style: normal;
 }

@@ -6,7 +6,7 @@
     border: 1px;
     border-color: #39ff14;
     font-size: 1rem;
-
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 10%;
