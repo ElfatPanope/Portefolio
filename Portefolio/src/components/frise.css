@@ -1,0 +1,117 @@
+/*Frise Chronologique*/
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.content p {
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.content h1 {
+    letter-spacing: 2px;
+    color: var(--tittle-color);
+
+}
+
+.timeline_exp_pro {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline_exp_pro::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: var(--tittle-color);
+    border-radius: 6px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    padding: 10px 60px;
+    position: relative;
+    width: 50%;
+
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #222;
+    border: solid 2px var(--tittle-color);
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #228B22;
+    /* ton vert forêt */
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 15%;
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    left: 55%;
+}
+
+.timeline-content {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #228B22;
+    max-width: 60%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background: #228B22;
+    border-radius: 50%;
+    border: 2px solid #111;
+}

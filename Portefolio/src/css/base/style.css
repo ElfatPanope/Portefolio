@@ -20,15 +20,21 @@ h2,
 h3 {
     color: var(--tittle-color);
     font-family: 'Michroma', sans-serif;
-}
-
-h1,
-h2 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 3rem;
 }
 
-/*Présentation sur la page d'acceuil*/
+
+/*Page d'acceuil*/
+
+.titre_presentation {
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px;
+    padding: 15px;
+    font-size: 2rem;
+}
+
 .presentation {
     display: flex;
     align-items: center;
@@ -42,7 +48,7 @@ h2 {
     display: flex;
     justify-content: flex-start;
     margin: 10%;
-    font-size: 2rem;
+    font-size: var(--text-size);
 
 }
 
@@ -119,4 +125,26 @@ form {
 .evidence {
     color: var(--tittle-color);
     font-style: normal;
+}
+
+/*Page En savoir plus*/
+
+.container_about_me,
+.container_about_school {
+    display: flex;
+}
+
+.texte_about_me,
+.texte_about_school {
+    font-size: var(--text-size);
+    max-width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    justify-content: flex-end;
+    order: 1;
+}
+
+.image_about_school {
+    order: 2;
 }
