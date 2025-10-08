@@ -4,7 +4,7 @@
     --tittle-color: #058428;
     --alt-tittle-color: #ffff33;
     --background-color: #222;
-    --text-size: 30px;
+    --text-size: 1.4rem;
 
 
 }
@@ -13,6 +13,10 @@ body {
     background-color: var(--background-color);
     font-family: 'Roboto', sans-serif;
     color: var(--text-color)
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 h1,
@@ -114,12 +118,20 @@ form {
 .text_sio_sisr,
 .text_sio_slam {
 
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 20px;
     border-radius: 12px;
     width: 500px;
     outline: solid 1px var(--tittle-color);
 
+}
+
+.text_sio_sisr:hover,
+.text_sio_slam:hover {
+    box-shadow: 0 0 25px 5px #058428;
+    transform: translateY(-10px);
+    z-index: 2;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .evidence {
@@ -137,7 +149,7 @@ form {
 .texte_about_me,
 .texte_about_school {
     font-size: var(--text-size);
-    max-width: 1000px;
+    max-width: 800px;
     margin: 10px auto;
     text-align: center;
     padding: 10px;
@@ -147,4 +159,25 @@ form {
 
 .image_about_school {
     order: 2;
+}
+
+/*Page Veille Informatique*/
+
+.presentation_veille,
+.presentation_sujet_veille {
+    padding: 5px;
+}
+
+
+.presentation_veille,
+.presentation_sujet_veille p {
+    font-size: var(--text-size);
+    color: var(--text-color);
+
+}
+
+.titre_veille {
+    color: var(--tittle-color);
+    text-align: left;
+    font-size: 1.8rem;
 }
