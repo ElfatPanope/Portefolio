@@ -124,15 +124,18 @@ form {
     border-radius: 12px;
     width: 500px;
     outline: solid 1px var(--tittle-color);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    will-change: box-shadow, transform;
 
 }
 
 .text_sio_sisr:hover,
 .text_sio_slam:hover {
     box-shadow: 0 0 25px 5px #058428;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     z-index: 2;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+
 }
 
 .evidence {
