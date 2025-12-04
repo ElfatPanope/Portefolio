@@ -1,6 +1,6 @@
 /* style de bouton */
 .bouton_form {
-    background-color: black;
+    background-color: #222;
     color: whitesmoke;
     padding: 12px 14px;
     border: 1px;
@@ -15,7 +15,7 @@
 
 .bouton_form:hover {
     background-color: var(--tittle-color);
-    color: black;
+    color: #222;
     box-shadow: 0 0 5px #058428,
         0 0 10px #058428;
 }
