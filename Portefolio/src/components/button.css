@@ -11,10 +11,6 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
 }
 
 .bouton_form:hover {
