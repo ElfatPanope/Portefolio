@@ -10,6 +10,7 @@
     <link href="components/nav.css" rel="stylesheet">
     <link href="components/button.css" rel="stylesheet">
     <link href="components/frise.css" rel="stylesheet">
+    <link href="components/skillbars.css" rel="stylesheet">
     <!--Fonts des titres + textes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,34 +45,62 @@
         </header>
     </body>
     <main>
-        <!--Texte présentation about me et études-->
-        <h1>En savoir plus à propos de moi</h1>
-        <div class="container_about_me">
-            <div class="texte_about_me">
-                <p>Animé depuis toujours par une curiosité instatiable, j'ai soif d'apprendre. Ce désir s'est manifesté
-                    très
-                    jeune par un amour inconditionnel pour la lecture, l'histoire et la musique. Grâce à mon papa qui
-                    m'a
-                    transmis ces passions et sa curiosité naturelle, très jeune j'ai été au contact d'ordinateurs et
-                    différentes consoles. Outre l'aspect jeu vidéo que j'ai très vite embrassé, j'ai tout de suite
-                    essayé de
-                    comprendre comment les données circulaient et comment internet fonctionnait. </p><br>
-            </div>
-        </div>
-        <div class="container_about_school">
-            <div class="texte_about_school">
-                <p>Des suites d'un baccalauréat technologiques en STI2D (Sciences Technologiques de l'Industrie et du
-                    Développement Durable) option énergie et environnement je me suis dirigé vers un DUT GEII (Génie
-                    Électrique et Informatique Industrielle) à l'IUT d'Angers. Des suites d'un décès, je ne suis jamais
-                    aller au bout. Mais, très vite j'ai eu envie de découvrir le monde du travail. Naturellement j'ai
-                    commencé à travailler dans l'industrie et plus précisémenet l'industrie automobile. Après six années
-                    à travailler, j'ai décidé de donner une seconde chance à mon premier amour et j'ai repris les études
-                    en BTS SIO en Septembre 2024. </p><br>
-            </div>
-        </div>
+        <h2>Compétences</h2>
 
+        <div class="skills">
+            <div class="skill">
+                <div class="skill_name">Protocole réseau (TCP/IP, Modèle OSI, DNS, DHCP), </div>
+                <div class="skill_bar">
+                    <div class="skill_per" per="70%" style="max-width: 70%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill_name">Virtualisation(Proxmox, VMware, VirtualBox)</div>
+                <div class="skill_bar">
+                    <div class="skill_per" per="70%" style="max-width: 70%"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill_name">Supervision (Zabbix, GLPI, UptimeKuma)</div>
+                <div class="skill_bar">
+                    <div class="skill_per" per="60%" style="max-width: 60%"></div>
+                </div>
+
+            </div>
+
+            <div class="skill">
+                <div class="skill_name">Ticketing (GLPI, Teams Work Ticket)</div>
+                <div class="skill_bar">
+                    <div class="skill_per" per="60%" style="max-width: 60%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill_name">Active Directory (Windows Server, Intune, M365)</div>
+                <div class="skill_bar">
+                    <div class="skill_per" per="60%" style="max-width: 60%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill_name">HTML/CSS</div>
+                <div class="skill_bar">
+                    <div class="skill_per" per="75%" style="max-width: 75%"></div>
+                </div>
+            </div>
+
+        </div>
 
         <h2>Expériences profesionnelles</h2>
+
+        <a href="https://drive.google.com/file/d/1pF5krBk8fgqlWNqw2XV7x0Spfh5ys_Kl/view?usp=sharing" target="_blank"
+            class="bouton_form">
+            Voir mon CV
+        </a>
+
         <!--Début Timeline-->
         <div class="timeline">
             <div class="container left">
@@ -89,7 +118,8 @@
                 <div class="content">
                     <h2>Première année de GEII</h2>
                     <p>
-                        Première année au sein de l'IUT d'Angers pour un DUT GEII, arrêté à la fin du premier semestre.
+                        Première année au sein de l'IUT d'Angers pour un DUT GEII, arrêté à la fin du premier
+                        semestre.
                     </p>
                 </div>
             </div>
@@ -108,7 +138,8 @@
                 <div class="content">
                     <h2>Service civique</h2>
                     <p>
-                        Service civique dans au collège Yves Montand au Theil sur Huisne (61) en tant qu' "aide-élève en
+                        Service civique dans au collège Yves Montand au Theil sur Huisne (61) en tant qu'
+                        "aide-élève en
                         situation de décrochage scolaire".
                     </p>
                 </div>
@@ -152,13 +183,21 @@
                     </p>
                 </div>
             </div>
+            <div class="container left">
+                <div class="date">2026</div>
+                <div class="content">
+                    <h2>Pole BTS Alternance </h2>
+                    <p>
+                        Alternant au service informatique. Service support (ticketing, installation de poste,
+                        support de
+                        proximité).
+                    </p>
+                </div>
+            </div>
         </div>
         <!--Fin timeline-->
 
-        <a href="https://drive.google.com/file/d/1pF5krBk8fgqlWNqw2XV7x0Spfh5ys_Kl/view?usp=sharing" target="_blank"
-            class="bouton_form">
-            Voir mon CV
-        </a>
+
 
         <footer>
 
