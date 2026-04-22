@@ -21,7 +21,7 @@
 .container {
     padding: 15px 30px;
     position: relative;
-    background: #222;
+    background: var(--background-color);
     width: 50%;
 }
 
@@ -88,7 +88,7 @@
 
 .container .content {
     padding: 30px 90px 30px 30px;
-    background: #222;
+    background: var(--background-color);
     position: relative;
     border: solid 2px var(--tittle-color);
     border-radius: 5px;

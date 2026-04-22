@@ -6,7 +6,7 @@
 }
 
 .card_veille {
-    background: #fff;
+    background: var(--background-color);
     border: solid 2px var(--tittle-color);
     border-radius: 5px;
     padding: 1.5rem;

@@ -1,8 +1,9 @@
 /* style de bouton */
 .bouton_form {
     background-color: #222;
+    max-width: 200px;
     color: whitesmoke;
-    padding: 12px 14px;
+    padding: 15px;
     border: 1px;
     border-color: #058428;
     font-size: 1rem;
@@ -10,7 +11,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 5px;
-
+    display: flex;
+    justify-content: center;
 }
 
 .bouton_form:hover {
@@ -18,4 +20,12 @@
     color: #222;
     box-shadow: 0 0 5px #058428,
         0 0 10px #058428;
+}
+
+.container_button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
 }
