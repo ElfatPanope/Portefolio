@@ -49,12 +49,26 @@ h3 {
 }
 
 .texte_presentation {
-    color: white;
+    color: var(--text-color);
     display: flex;
     justify-content: flex-start;
     margin: 10%;
     font-size: var(--text-size);
 
+}
+
+.texte_entreprise {
+    font-size: var(--text-size);
+    max-width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.photo_pba {
+    display: flex;
+    align-items: center;
+    padding: 8%;
 }
 
 /*Formulaire de contact*/
@@ -63,6 +77,12 @@ form {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
+}
+
+.fieldset_form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px 5px #058428;
 }
 
 /* Style du fieldset */
@@ -74,6 +94,7 @@ form {
     box-shadow: 0 0 10px #058428,
         0 0 20px #058428;
     color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .fieldset_form label {
