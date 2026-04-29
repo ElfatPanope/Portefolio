@@ -109,7 +109,7 @@
 }
 
 .container:hover .content {
-    box-shadow: 0 0 25px 5px #058428;
+    box-shadow: 0 0 25px 5px var(--tittle-color);
     transform: translateY(-5px);
     z-index: 2;
     transition: box-shadow 0.3s ease, transform 0.3s ease;

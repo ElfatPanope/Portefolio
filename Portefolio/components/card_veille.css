@@ -15,7 +15,7 @@
 
 .card_veille:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 25px 5px #058428;
+    box-shadow: 0 0 25px 5px var(--tittle-color);
 }
 
 .card_veille img {
