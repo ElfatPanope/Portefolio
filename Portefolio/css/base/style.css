@@ -157,7 +157,7 @@ form {
     margin-top: 30px;
     padding: 20px;
     border-radius: 12px;
-    width: 500px;
+    width: 600px;
     outline: solid 1px var(--tittle-color);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 
