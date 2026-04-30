@@ -1,3 +1,3 @@
 # Portefolio
 
-Projet de portfolio en HTML 5 et CSS.
+Projet de portfolio en HTML 5, CSS et JS.
