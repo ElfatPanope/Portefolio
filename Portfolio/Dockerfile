@@ -1,4 +1,5 @@
 FROM nginx:alpine
 
-COPY src/ C:\Users\maxim\Vscode\Portefolio\Portefolio\src
+COPY . /usr/share/nginx/html
+
 EXPOSE 80
